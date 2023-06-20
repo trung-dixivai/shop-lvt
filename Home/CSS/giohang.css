@@ -1098,4 +1098,7 @@ iframe {
         left: 0;
 
     }
+    .menu-item{
+        display: none;
+    }
 }
