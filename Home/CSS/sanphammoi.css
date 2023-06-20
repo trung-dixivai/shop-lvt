@@ -14,13 +14,21 @@
     z-index: 229092;
     top: 0;
 }
-
+.chu{
+    width: 50%;
+}
 .thanhtren .bentrai {
 
     width: 50%;
 
 }
-
+.MAP{
+    width: 50%;
+}
+.MAP iframe {
+    width: 90%;
+    height: 290px;
+}
 .thanhtren .bentrai a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;

@@ -18,11 +18,19 @@
     display: flex;
     flex-direction: column;
 }
-
+.chu{
+    width: 50%;
+}
 .logo img {
     width: 230px;
 }
-
+.MAP{
+    width: 50%;
+}
+.MAP iframe {
+    width: 90%;
+    height: 290px;
+}
 .info {
     margin: 10px 0px 10px 0px;
     font-size: 13px;

@@ -827,7 +827,16 @@
     align-items: center;
     justify-content: center;
 }
-
+.MAP{
+    width: 50%;
+}
+.MAP iframe {
+    width: 90%;
+    height: 290px;
+}
+.chu{
+    width: 50%;
+}
 input[type="text"] {
     height: 40px;
     border: 1px solid rgb(93, 93, 93);
@@ -1067,6 +1076,12 @@ iframe {
     .thanhtren {
         display: none;
     }
+    .bosuutap {
+        flex-direction: column;
+     }
+     .bstleft, .bstright{
+        width: 100%;
+     }
 
     input[type="text"] {
         height: 40px;
