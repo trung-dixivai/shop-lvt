@@ -27,6 +27,9 @@
     width: 90%;
     height: 290px;
 }
+.chu{
+    width: 50%;
+}
 .thanhtren .bentrai a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
@@ -257,6 +260,10 @@
     height: 40px;
     font-size: 20px;
 
+}
+.btn{
+    height: 40px;
+    width: 400px;
 }
 
 .taikhoan {
@@ -720,9 +727,8 @@ footer {
 }
 
 .ft .ft-center {
-    padding-left: 30px;
-
-    width: 25%;
+    
+    width: 20%;
     padding-top: 36px;
 }
 
@@ -741,7 +747,14 @@ footer {
     color: rgb(242, 242, 242);
 }
 
+.ft .ft-center {
+    padding-left: 50px;
+    width: 31%;
+    padding-top: 35px;
+
+}
 .ft .ft-right {
+    padding-left: 50px;
     width: 31%;
     padding-top: 35px;
 
@@ -756,13 +769,13 @@ footer {
     font-size: 14px;
 }
 
+.ft .ft-right a:hover {
+    color: rgb(255, 255, 255);
+}
+
 iframe {
     width: 100%;
     height: 100%;
-}
-
-.ft .ft-right a:hover {
-    color: rgb(255, 255, 255);
 }
 
 .ft_bank {
@@ -777,6 +790,7 @@ iframe {
 
     justify-content: center;
 }
+
 
 .ft_bank .imgbank {
     margin-top: 15px;
@@ -925,7 +939,28 @@ iframe {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 14px;
     }
+    input[type="tel"] {
+        height: 35px;
+        width: 300px;
+        padding-left: 5px;
+
+        border: 1px solid rgb(177, 177, 177);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14px;
+    }
     input[type="email"] {
+        height: 35px;
+        width: 300px;
+        padding-left: 5px;
+
+        border: 1px solid rgb(177, 177, 177);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14px;
+    }
+    .btn{
+        width: 300px;
+    }
+    input[type="password"] {
         height: 35px;
         width: 300px;
         padding-left: 5px;
@@ -933,7 +968,6 @@ iframe {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 14px;
     }
-
     .resertpass {
         width: 300px;
     }
@@ -1061,6 +1095,18 @@ iframe {
         padding-right: 10px;
     }
 
+    .ft .ft-center {
+        padding-left: 0;
+        width: 31%;
+        padding-top: 30px;
+    
+    }
+    .ft .ft-right {
+        padding-left: 0;
+        width: 31%;
+        padding-top: 35px;
+    
+    }
     .ft {
 
         width: 100%;
@@ -1084,18 +1130,13 @@ iframe {
 
     .ft .ft-center {
         width: 50%;
-        padding-top: 60px;
+        padding-top: 44px;
+        padding-left: 30px;
     }
 
     .ft .ft_bank {
         /* margin-left: 110px; */
         width: 50%;
     }
-    input[type="text"] {
-        height: 40px;
-        border: 1px solid rgb(93, 93, 93);
-        width: 180px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 14px;
-    }
+    
 }
