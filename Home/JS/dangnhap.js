@@ -32,7 +32,10 @@ function login(e) {
         alert("Vui lòng nhập đầy đủ thông tin!");
     }
     else {
-        alert("Vui Đăng Nhập Thành Công!");
+    
+        alert(" Đăng Nhập Thành Công!");
+        window.location.href = "accout.html"; // Điều hướng đến trang khác
+
 
     }
 }
