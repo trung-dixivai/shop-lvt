@@ -10,32 +10,37 @@ function singup(e) {
     }
 else {
     var user = {
-        name: name,
         email: email,
-        ho: ho,
-        phone: phone,
         pass:pass
     }; 
 
     var json = JSON.stringify(user);
     localStorage.setItem(email, json);
     alert("Đăng Kí Thành Công")
+    console.log(user)
+
 }
 }
 function login(e) {
     event.preventDefault();
-    var email1 = document.getElementById("hi").value;
+    var email = document.getElementById("hi").value;
     var pass = document.getElementById("pass").value;
-    var user =localStorage.getItem(email1);
-    var data=JSON.parse(user)
-    if (email1 === '' || pass === '') {
+    const user=localStorage.getItem(email);
+    const data=JSON.parse(user);
+
+    if (user==null ) {
+        alert("Tài Khoản Không Tồn Tại!");
+    }
+    if( email==''|| pass==''){
         alert("Vui lòng nhập đầy đủ thông tin!");
     }
-    else {
+        
     
+    else if(email==data.email && pass==data.pass){
+        
         alert(" Đăng Nhập Thành Công!");
-        window.location.href = "accout.html"; // Điều hướng đến trang khác
-
+        window.location.href = "accout.html"; 
 
     }
+   
 }
