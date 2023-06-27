@@ -1090,19 +1090,15 @@ iframe {
         width: 100%;
     }
     .bstright{
-        margin-top: 5px;
-        padding-left: 0px;
-    }
+        
         
     }
-    /* .bstleft img {
+    .bstleft img {
         width: 100%;
-        height: 200px;
-    } */
-    /* .bstright img {
+    }
+    .bstright img {
         width: 100%;
-        height: 200px;
-    } */
+    }
 
     .thanhcongcu {
         margin-top: 0px;
