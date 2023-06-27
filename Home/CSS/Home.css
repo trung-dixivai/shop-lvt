@@ -527,7 +527,6 @@
 
 .bstleft {
     border-top: 1px solid #fcfcfc;
-    padding-left: 4px;
     width: 50%;
 }
 
@@ -827,16 +826,20 @@
     align-items: center;
     justify-content: center;
 }
-.MAP{
+
+.MAP {
     width: 50%;
 }
+
 .MAP iframe {
     width: 90%;
     height: 290px;
 }
-.chu{
+
+.chu {
     width: 50%;
 }
+
 input[type="text"] {
     height: 40px;
     border: 1px solid rgb(93, 93, 93);
@@ -930,7 +933,7 @@ footer {
 }
 
 .ft .ft-center {
-    
+
     width: 20%;
     padding-top: 36px;
 }
@@ -956,6 +959,7 @@ footer {
     padding-top: 35px;
 
 }
+
 .ft .ft-right {
     padding-left: 50px;
     width: 31%;
@@ -1074,8 +1078,31 @@ iframe {
 @media (max-width:953px) {
 
     .home {
-        flex-direction: column-reverse
+        flex-direction: column-reverse;
     }
+
+    .bosuutap {
+        flex-direction: column;
+    }
+
+    .bstleft,
+    .bstright {
+        width: 100%;
+    }
+    .bstright{
+        margin-top: 5px;
+        padding-left: 0px;
+    }
+        
+    }
+    /* .bstleft img {
+        width: 100%;
+        height: 200px;
+    } */
+    /* .bstright img {
+        width: 100%;
+        height: 200px;
+    } */
 
     .thanhcongcu {
         margin-top: 0px;
@@ -1084,12 +1111,8 @@ iframe {
     .thanhtren {
         display: none;
     }
-    .bosuutap {
-        flex-direction: row;
-     }
-     .bstleft, .bstright{
-        width: 33%;
-     }
+
+
 
     input[type="text"] {
         height: 40px;
@@ -1186,14 +1209,16 @@ iframe {
         padding-left: 0;
         width: 31%;
         padding-top: 30px;
-    
+
     }
+
     .ft .ft-right {
         padding-left: 0;
         width: 31%;
         padding-top: 35px;
-    
+
     }
+
     .ft {
 
         width: 100%;
@@ -1225,6 +1250,7 @@ iframe {
         /* margin-left: 110px; */
         width: 50%;
     }
+
     input[type="text"] {
         height: 40px;
         border: 1px solid rgb(93, 93, 93);
@@ -1232,5 +1258,5 @@ iframe {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 14px;
     }
-    
+
 }
