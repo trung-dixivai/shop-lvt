@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
@@ -29,7 +28,7 @@
 }
 
 .thanhtren .bentrai a {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 15px;
@@ -45,7 +44,7 @@
 .thanhtren .benphai a {
     padding-right: 10px;
     color: rgb(255, 255, 255);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     font-size: 15px;
 }
@@ -77,7 +76,7 @@
 }
 
 .menu>ul>li a {
-    font-family: Geneva, 'Copperplate', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 17px;
     text-decoration: none;
     font-style: inherit;
@@ -171,7 +170,7 @@
     display: flex;
     background-color: rgb(255, 255, 255);
     height: 100px;
-    margin-top: 20px;
+    margin-top: 19px;
     z-index: 99999;
 }
 
@@ -610,13 +609,13 @@
 
 .product .product-info {
     margin-top: 2px;
-    font-family: Geneva, 'Copperplate', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
 
 .product .product-info a span {
     font-size: 14px;
-    font-family: Geneva, 'Copperplate', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #b2abab;
 
 }
@@ -708,7 +707,7 @@
 
 .dangkibangtinmail {
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 

@@ -6,7 +6,7 @@
 
 }
 body{
-    border: 2px solid #fcfcfc;
+    bottom: 0;
 }
 .thanhtren {
     width: 100%;
@@ -15,6 +15,7 @@ body{
     position: fixed;
     z-index: 229092;
     top: 0;
+    
 }
 
 .thanhtren .bentrai {
@@ -24,7 +25,7 @@ body{
 }
 
 .thanhtren .bentrai a {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 15px;
@@ -40,7 +41,7 @@ body{
 .thanhtren .benphai a {
     padding-right: 10px;
     color: rgb(255, 255, 255);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     font-size: 15px;
 }
@@ -72,7 +73,7 @@ body{
 }
 
 .menu>ul>li a {
-    font-family: Geneva, 'Copperplate', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 17px;
     text-decoration: none;
     font-style: inherit;
@@ -167,7 +168,7 @@ body{
     display: flex;
     background-color: rgb(255, 255, 255);
     height: 100px;
-    margin-top: 20px;
+    margin-top: 19px;
     z-index: 99999;
 }
 
@@ -562,7 +563,7 @@ body{
 
 .layer1 {
     color: #9a9a9a;
-    font-family: Geneva, 'Copperplate', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     ;
     font-size: 14px;
     padding-left: 15px;
@@ -575,7 +576,7 @@ body{
     font-size: 14px;
 
     color: hsl(0, 0%, 64%);
-    font-family: Geneva, 'Copperplate', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     ;
     padding-right: 15px;
     text-align: right;
@@ -621,7 +622,7 @@ body{
 
 .bo {
 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 13px;
     color: rgb(88, 169, 169);
     width: 350px;
@@ -636,7 +637,7 @@ body{
 .bin {
     text-align: center;
     font-size: 13px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     opacity: 0;
 }
 
@@ -648,7 +649,7 @@ body{
 .bin p {
     text-align: center;
     font-size: 17px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
@@ -663,7 +664,7 @@ body{
 .bin1 {
     text-align: center;
     font-size: 13px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     opacity: 0;
 }
 
@@ -675,7 +676,7 @@ body{
 .bin1 p {
     text-align: center;
     font-size: 17px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
@@ -690,7 +691,7 @@ body{
 .bin2 {
     text-align: center;
     font-size: 13px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     opacity: 0;
 }
 
@@ -702,7 +703,7 @@ body{
 .bin2 p {
     text-align: center;
     font-size: 17px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
@@ -717,7 +718,7 @@ body{
 .bin3 {
     text-align: center;
     font-size: 13px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     opacity: 0;
 }
 
@@ -729,7 +730,7 @@ body{
 .bin3 p {
     text-align: center;
     font-size: 17px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
@@ -744,7 +745,7 @@ body{
 .bin4 {
     text-align: center;
     font-size: 13px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     opacity: 0;
 }
 
@@ -756,7 +757,7 @@ body{
 .bin4 p {
     text-align: center;
     font-size: 17px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
@@ -771,7 +772,7 @@ body{
 .bin5 {
     text-align: center;
     font-size: 13px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     opacity: 0;
 }
 
@@ -783,7 +784,7 @@ body{
 .bin5 p {
     text-align: center;
     font-size: 17px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
@@ -881,8 +882,8 @@ input[type="text"] {
 }
 
 footer {
+
     bottom: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .ft {
