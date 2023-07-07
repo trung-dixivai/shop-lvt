@@ -65,19 +65,25 @@ function login(e) {
     const user = localStorage.getItem(email);
     const data = JSON.parse(user);
 
-    if (user == null) {
-        alert("Tài Khoản Không Tồn Tại!");
-    }
+    // if (user == null) {
+    //     alert("Tài Khoản Không Tồn Tại!");
+    // }
     if (email == '' || pass == '') {
         alert("Vui lòng nhập đầy đủ thông tin!");
     }
 
+    else if(email !== data.email || pass !== data.pass){
+        alert("Mật Khẩu Hoặc Email Bị Sai!");
 
+    }
+   
     else if (email == data.email && pass == data.pass) {
 
         alert(" Đăng Nhập Thành Công!");
         window.location.href = "accout.html";
 
     }
+   
+   
 
 }
